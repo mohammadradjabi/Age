@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Conversion</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form1">
+        <div>
+          <input class="fullname normal" type="text" placeholder="Full Name" />
+        </div>
+        <div>
+          <input class="father normal" type="text" placeholder="Fathers Name" />
+        </div>
+        <div>
+          <input class="degree normal" type="text" placeholder="Degree" />
+
+          <div class="gender">
+            <!-- <input class="gender" type="text" placeholder="Gender" /> -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" /> Male
+            <input type="radio" id="female" name="gender" value="Female" />
+            Female
+          </div>
+        </div>
+        <div>
+          <input
+            class="phone normal"
+            type="number"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div>
+          <lable>Birthday:</lable>
+          <input class="date month normal" type="number" placeholder="Month" />
+          <input class="date year normal" type="number" placeholder="Year" />
+        </div>
+        <div>
+          <input class="email normal" type="email" placeholder="Email" />
+        </div>
+        <div>
+          <input class="city normal" type="text" placeholder="City" required />
+        </div>
+      </div>
+      <div class="form2">
+        <h2>Your Full Name:</h2>
+        <h1 class="fullname"></h1>
+        <h2>Your Father's Name:</h2>
+        <h1 class="father"></h1>
+        <h2>Your Degree:</h2>
+        <h1 class="degree"></h1>
+        <h2>Your Gender:</h2>
+        <h1 class="gender"></h1>
+        <h2>Your Phone Number:</h2>
+        <h1 class="phone"></h1>
+        <h2>Your Age:</h2>
+        <h1 class="birthday year"></h1>
+        <h1 class="birthday month"></h1>
+        <h2>Your Email:</h2>
+        <h1 class="email"></h1>
+        <h2>Your City:</h2>
+        <h1 class="city"></h1>
+      </div>
+      <button>Send</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

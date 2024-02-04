@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+@font-face {
+    font-family: nastaliq;
+    src: url(./Caveat-VariableFont_wght.ttf);
+}
+div.wrapper>div{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+    text-align: center;
+}
+input.normal{
+    all: unset;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin: 8px 5px;
+    padding: 5px;
+    background-color: rgba(217, 237, 248, 0.603);
+    border-radius: 8px;
+    text-align: left;
+    color: rgb(51, 40, 40);
+}
+input.date{
+    width: 70px;
+}
+body{
+        background-color: rgb(183, 216, 197);
+
+}
+div.wrapper{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    all: unset;
+    background-color: rgb(76, 76, 170);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: whitesmoke;
+    cursor: pointer;
+   
+    font-size: 18px;
+    transition: 500ms all linear;
+}
+button:hover{
+    background-color: rgb(236, 234, 76);
+    color: rgb(61, 42, 42);
+}
+lable{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: nastaliq;
+    font-size: 20px;
+    color: rgb(54, 48, 48);
+}
+h1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30px;
+    font-weight: 200;
+    line-height: 30px;
+    font-style: italic;
+    background-color: rgba(156, 132, 132, 0.349);
+    display: inline-block;
+    width: fit-content;
+    margin-top: 8px;
+    border-radius: 8px;
+    
+}
+h1.birthday{
+    display: inline-block;
+    height: 37px;
+    vertical-align: top;
+
+}
+div.gender{
+    font-size: 15px;
+    margin: 10px 0;
+}
+input[type="radio"]{
+   margin-left:30px;
+}
